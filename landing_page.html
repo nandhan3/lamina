@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumina — Smart Desk Lamp</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Lumina</div>
+  <ul class="nav-links">
+    <li><a href="#features">Features</a></li>
+    <li><a href="#specs">Specs</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+  </ul>
+  <button class="nav-cta">Order Now</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Light that<br><span>thinks.</span></h1>
+  <p>The world's first AI-powered desk lamp that adapts to your mood, schedule, and rhythm — automatically.</p>
+  <div class="hero-actions">
+    <a href="#pricing" class="btn-primary">Buy for ₹799</a>
+    <a href="#features" class="btn-ghost">Learn more →</a>
+  </div>
+
+  <div class="product-visual" style="position:relative;margin-top:3rem;width:400px;height:340px;animation:scaleIn 0.9s 0.4s ease both;">
+    <div style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:220px;height:60px;  background:radial-gradient(ellipse,rgba(232,200,74,0.35) 0%,transparent 70%);filter:blur(18px);animation:glowPulse 3s ease-in-out infinite;"></div>
+    <img
+      class="product-image"
+      src="https://img.freepik.com/free-photo/spotlight-shining-down-into-grunge-interior_1048-6921.jpg?semt=ais_hybrid&w=740&q=80"
+      alt="Lumina smart desk lamp"
+      style="width: 400px;height: 500px;object-fit:contain;position:relative;z-index:1;filter:drop-shadow(0 20px 60px rgba(232,200,74,0.25));border-radius:12px;"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+    />
+    <div style="display:none;position:absolute;inset:0;z-index:1;flex-direction:column;align-items:center;justify-content:center;">
+      <div style="font-size:5rem;">💡</div>
+      <div style="font-size:0.8rem;color:var(--muted);margin-top:0.5rem;">Lumina Pro</div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="features">
+  <div class="features-header">
+    <div class="label-text">Why Lumina</div>
+    <h2>Everything you need from light</h2>
+  </div>
+  <div class="features-grid">
+    <div class="feature-item">
+      <div class="feature-icon">🧠</div>
+      <h3>AI Mood Detection</h3>
+      <p>Lumina learns your patterns and adjusts brightness and color temperature throughout the day — no controls needed.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🌙</div>
+      <h3>Circadian Rhythm Mode</h3>
+      <p>Warm light in the evening, cool blue-white during focus hours. Scientifically designed to align with your body clock.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">📱</div>
+      <h3>App Control</h3>
+      <p>Full control from your phone. Set schedules, scenes, and alarms. Works with Apple HomeKit and Google Home.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🔋</div>
+      <h3>Energy Efficient</h3>
+      <p>LED technology uses 80% less energy than traditional bulbs. Built to last 25,000 hours — that's over 15 years.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🎙️</div>
+      <h3>Voice Control</h3>
+      <p>Works with Alexa, Google Assistant, and Siri. Simply say "Lumina, reading mode" and you're set.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">✨</div>
+      <h3>1000+ Scenes</h3>
+      <p>Choose from curated lighting scenes or design your own. From golden hour to northern lights.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SPECS -->
+<section id="specs" class="specs-section">
+  <div class="specs-inner">
+    <div class="specs-header">
+      <div class="label-text">Technical</div>
+      <h2 style="font-family:'Syne',sans-serif;font-weight:800;font-size:2.2rem;letter-spacing:-0.03em;">Specifications</h2>
+    </div>
+    <div class="specs-grid">
+      <div class="spec-row"><span class="spec-key">Brightness</span><span class="spec-val">50–1000 lux</span></div>
+      <div class="spec-row"><span class="spec-key">Color Temp</span><span class="spec-val">2200K–6500K</span></div>
+      <div class="spec-row"><span class="spec-key">Connectivity</span><span class="spec-val">Wi-Fi 6 + Bluetooth 5.2</span></div>
+      <div class="spec-row"><span class="spec-key">Power</span><span class="spec-val">12W max</span></div>
+      <div class="spec-row"><span class="spec-key">LED Lifespan</span><span class="spec-val">25,000 hours</span></div>
+      <div class="spec-row"><span class="spec-key">App Platforms</span><span class="spec-val">iOS 16+, Android 12+</span></div>
+      <div class="spec-row"><span class="spec-key">Voice Assistants</span><span class="spec-val">Alexa, Google, Siri</span></div>
+      <div class="spec-row"><span class="spec-key">Warranty</span><span class="spec-val">3 years</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="pricing-section">
+  <div class="label-text">Pricing</div>
+  <h2 style="font-family:'Syne',sans-serif;font-weight:800;font-size:2.5rem;letter-spacing:-0.03em;">Simple, transparent.</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <div class="plan-name">Standard</div>
+      <div class="plan-price"><sup>₹</sup>799</div>
+      <ul class="plan-features">
+        <li>1 Lumina lamp</li>
+        <li>iOS & Android app</li>
+        <li>100 preset scenes</li>
+        <li>Voice control</li>
+        <li>1-year warranty</li>
+      </ul>
+      <button class="plan-btn">Add to Cart</button>
+    </div>
+    <div class="pricing-card featured">
+      <div class="featured-badge">Most Popular</div>
+      <div class="plan-name">Pro Bundle</div>
+      <div class="plan-price"><sup>₹</sup>1,999</div>
+      <ul class="plan-features">
+        <li>2 Lumina lamps</li>
+        <li>AI mood detection</li>
+        <li>1000+ scenes</li>
+        <li>Circadian mode</li>
+        <li>3-year warranty</li>
+      </ul>
+      <button class="plan-btn gold">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Ready to light up<br>your brightside?</h2>
+  <p>Free shipping on all orders. 30-day returns.</p>
+  <a href="#pricing" class="btn-primary">Shop Lumina Now</a>
+</section>
+
+<footer>
+  <div class="footer-logo">Lumina</div>
+  <div>© 2025 Lumina Technologies Pvt Ltd</div>
+</footer>
+
+</body>
+</html>
